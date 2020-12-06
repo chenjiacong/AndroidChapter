@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".http.HttpActivity">
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="httpurlconnect" />
+    <Button
+        android:id="@+id/send1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="okhttp" />
+    <Button
+        android:id="@+id/send2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解析xml，SAX方式" />
+    <Button
+        android:id="@+id/send3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解析xml，PULL方式" />
+    <Button
+        android:id="@+id/send4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解析json数据" />
+
+    <Button
+        android:id="@+id/gson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gson解析json数据" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/response"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

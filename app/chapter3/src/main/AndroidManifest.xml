@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chapter3">
+
+    <application>
+        <activity android:name=".Summary.MsgActivity"></activity>
+        <activity android:name=".RecycleView.RecyclerView2Activity"></activity>
+        <activity android:name=".RecycleView.RecycleViewActivity" />
+        <activity android:name=".ListView.ListView2Activity" />
+        <activity android:name=".ListView.ListViewActivity" />
+        <activity android:name=".Chapter3Activity" />
+    </application>
+
+</manifest>

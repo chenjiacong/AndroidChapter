@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chapter10">
+
+    <application>
+        <service
+            android:name=".summary.DownloadService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".summary.DownLoadTaskActivity" />
+
+        <service
+            android:name=".service.MyIntentService"
+            android:exported="false" />
+        <service
+            android:name=".service.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".service.ServiceActivity" />
+    </application>
+
+</manifest>

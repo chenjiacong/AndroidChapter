@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chapter4">
+
+    <application>
+        <activity android:name=".Chapter4Activity"></activity>
+        <activity android:name=".demo.DemoActivity" />
+        <activity android:name=".Summary.NewsContentActivity" />
+        <activity android:name=".Summary.NewsActivity" />
+    </application>
+
+</manifest>
